@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #2c3536;
+  font-size: 1.2rem;
+  background-color: aliceblue;
+}
+
+h3,
+h4,
+h5 {
+  margin: 50px 0;
+  color: #1d2128;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  background: url("assets/life2.png") no-repeat fixed center center/cover;
+}
+
+header img {
+  height: 125px;
+  float: right;
+  padding: 20px;
+  background: no-repeat fixed center center/cover;
+}
+
+header .container {
+  color: #2c3536;
+  font-size: 1.2rem;
+}
+
+a:link {
+  color: #2c3536;
+}
+
+a:visited {
+  color: #2c3536;
+}
+
+a:hover {
+  font-size: 22px;
+  box-shadow: 0px 0px 10px rgb(185, 237, 243);
+  cursor: pointer;
+}
+
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.herobanner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+  color: #2c3536;
+}
+
+.herobanner h2 {
+  font-size: 6rem;
+  text-align: center;
+  transition: all 3s;
+}
+
+/*PROJECTS*/
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  box-shadow: 0 0 5px rgb(190, 190, 190);
+  margin: 20px;
+  width: 400px;
+  height: auto;
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h4,
+.card p,
+.card a {
+  padding: 5px;
+}
+
+/*ABOUT ME*/
+
+#about img {
+  float: right;
+  width: 200px;
+}
+
+/*SKILLS*/
+
+.box {
+  height: 250px;
+  box-shadow: 0 0 5px rgb(190, 190, 190);
+  padding: 20px;
+  margin: 20px;
+}
+
+.box img {
+  height: 50px;
+}
+
+footer {
+  background-color: #aaaaaa;
+  text-align: center;
+  padding: 5px;
+}
+
+footer h3 {
+  color: whitesmoke;
+}
+
+.form-group {
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 20%;
+  color: whitesmoke;
+}
+
+input,
+textarea {
+  font-family: "Raleway", sans-serif;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 400px;
+  margin: 5px;
+}
+
+input[type="submit"] {
+  width: 150px;
+  background-color: #09eedd;
+  font-size: 20px;
+  color: #2c3536;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0px 0px 10px rgb(145, 232, 241);
+  cursor: pointer;
+}
+
+footer img {
+  height: 100px;
+  float: right;
+  padding: 20px;
+  background: no-repeat fixed center center/cover;
+}
+
+/* Back to top button */
+#upBtn {
+  margin: 0px -200px 0px 75%;
+  position: relative;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  background-color: #09eedd;
+  color: #2c3536;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+#upBtn:hover {
+  box-shadow: 0px 0px 10px rgb(145, 232, 241);
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+
+  header img {
+    width: 100%;
+    background: no-repeat fixed center center/cover;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .herobanner h2 {
+    font-size: 3rem;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+  }
+
+  .card {
+    box-shadow: 0 0 5px rgb(190, 190, 190);
+    margin: 20px;
+    width: 90%;
+    height: auto;
+  }
+  .card p,
+  .card a {
+    padding: 5px;
+  }
+
+  #about img {
+    float: none;
+    width: 100%;
+  }
+
+  .box {
+    width: 80%;
+    height: 250px;
+    background: oldlace;
+    padding: 20px;
+  }
+
+  footer,
+  .form-group {
+    width: 100%;
+  }
+
+  #upBtn {
+    margin: 20px;
+    position: sticky;
+    padding: 20px;
+    bottom: 10px;
+    right: 30px;
+  }
+}

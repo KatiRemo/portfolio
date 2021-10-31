@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">   
+        <div class="main_nav" id="myMainNav">
+        <div class="logo"><img src="./assets/Group12.png" alt="logo"/></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="gallery.html " target="_blank">Gallery</a></li>
+                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i>
+                </a> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="herobanner"><h2>Meet Kati</h2></div>
+   
+    </div>
+</header>
+<main>
+    <div class="container">
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="content">
+        <div class="card">
+            <img src="./assets/Surf.png" alt="flowrider">
+            <h4>Surf House Helsinki</h4>
+            <p>Surf House Helsinki has been my biggest project so far. I have been involved from planning & building stages up to running daily operations.</p>
+            <br>
+            <a href="https://surfhousehelsinki.com/" target="_blank">Read more</a>
+        </div>
+        <div class="card">
+            <img src="./assets/IMG_3594.JPG" alt="empty beach">
+            <h4>Raya Divers</h4>
+            <p>The yearly planning of operations at Raya Divers is divided in two: high season and low season. During my five years I completed ten projects.</p>
+            <br>
+            <a href="https://rayadivers.com/" target="_blank">Read more</a>
+        </div>
+        <div class="card">
+            <img src="./assets/IMG_3278.JPG" alt="water">
+            <h4>ICT</h4>
+            <p>After years of working in various fields closely tied to project management, I have now started my studies in ICT to become a full-stack developer.</p>
+            <br>
+            <a href="https://www.bc.fi/" target="_blank">Read more</a>
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <h3>About me</h3>
+        <img src="./assets/kati.png" alt="kati">
+        <p>Kati Remo is an internationally accomplished operative and project manager, event producer, hr     professional as well as a public speaker. Having worked in several countries from USA to Vietnam, Remo has in-depth knowledge about working in different cultures and circumstances. 
+            <br>
+            <br>
+            Inspired by working with an enthusiastic team and changing environment, grasping new projects quickly and taking the reins is second nature to Remo. Her biggest project to date has been Surf House Helsinki from planning stages to building as well as starting, maintaining and fine-tuning the daily operations until today.
+            <br>
+            <br>
+            Remo is an avid animal lover and nature is very close to her heart. She is involved with volunteering for animal rescues and helping animals is what truly fills her heart. On her free time she spends time with her pet cat, who is adopted from Thailand. 
+            <br>
+            <br>
+            
+            After already establishing herself as one of the new key-players in the event and restaurant industry Remo is now branching out and has taken a leap to ICT. She has started her studies to become a full-stack developer and is excitedly looking forward to combining her current accomplishments with the new skills in the learning. In the end, nothing short of world domination will not do.</p>
+    </section>
+    <section id="skills">
+        <h3>My Skills</h3>
+        <div class="content">
+        <div class="box">
+            <h5>PROJECT MANAGEMENT</h5>
+        <img src="./assets/agile.png" alt="project icon" />
+        <progress id="file" value="90" max="100"></progress>
+    </div>
+    <div class="box">
+        <h5>EVENT PRODUCTION</h5>
+        <img src="./assets/barrier.png" alt="events icon" />
+        <progress id="file" value="85" max="100"></progress></progress>
+    </div>
+    <div class="box">
+        <h5>HTML-CSS-UI-UX</h5>
+        <img src="./assets/html.png" alt="html-css icon" />
+        <progress id="file" value="40" max="100"></progress></progress>
+    </div>
+    <div class="box">
+        <h5>JAVASCRIPT</h5>
+        <img src="./assets/js-format.png" alt="js icon" />
+        <progress id="file" value="20" max="100"></progress></progress>
+    </div>
+</div>
+    </section></div>
+</main>
+<footer>
+
+    <a href="https://www.linkedin.com/in/katiremo?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByUOq%2FvRaT4Set05Z%2Bo7lpQ%3D%3D" target="_blank"><img src="./assets/linkedin.png" alt="linkedin"></a>
+    <a href="http://www.instagram.com/katiremo" target="_blank"><img src="./assets/instagram.png" alt="instagram"></a>
+    <div class="container">
+    <h3>Contact Me</h3>
+    <form id="contact">
+        <div class="form-group">
+        <label for="first">First Name</label>
+        <input type="text" id="first"/>
+    </div>
+    <div class="form-group">
+        <label for="last">Last Name</label>
+        <input type="text" id="last"/>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email"/>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <input type="submit" value="Send"/>
+    </form>
+</div>
+<button onclick="topFunction()" id="upBtn" title="Back to top">Back to top</button>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
