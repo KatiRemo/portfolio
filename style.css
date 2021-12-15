@@ -142,7 +142,7 @@ nav ul li {
 
 .box {
   height: 250px;
-  box-shadow: 0 0 5px rgb(190, 190, 190);
+  box-shadow: 0 0 5px #333;
   padding: 20px;
   margin: 20px;
 }
@@ -246,7 +246,7 @@ footer img {
   }
 
   .card {
-    box-shadow: 0 0 5px rgb(190, 190, 190);
+    box-shadow: 0 0 5px #333;
     margin: 20px;
     width: 90%;
     height: auto;
