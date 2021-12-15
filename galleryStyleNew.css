@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
-  color: #2c3536;
+  color: #333;
   font-size: 1.2rem;
   background-color: aliceblue;
 }
@@ -20,7 +20,7 @@ header {
 }
 
 header img {
-  height: 125px;
+  height: 100px;
   float: right;
   padding: 20px;
   background: no-repeat fixed center center/cover;
@@ -44,18 +44,14 @@ nav ul li {
   display: inline-block;
 }
 
+a:visited,
 a:link {
-  color: #2c3536;
-}
-
-a:visited {
-  color: #2c3536;
+  color: #333;
+  text-decoration: none;
 }
 
 a:hover {
-  font-size: 22px;
-  box-shadow: 0px 0px 10px rgb(145, 232, 241);
-  /* text-shadow: 0 0 5px rgb(136, 136, 136); */
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
@@ -154,11 +150,11 @@ a:hover {
 }
 
 footer {
-  background-color: #878787;
+  background-color: #c4c3d0;
   text-align: center;
   padding: 50px;
   max-width: auto;
-  height: 200px;
+  height: 150px;
 }
 
 /* Back to top button */
@@ -166,7 +162,7 @@ footer {
   margin: 0px 0px 0px 71%;
   position: relative;
   outline: none;
-  background-color: #09eedd;
+  background-color: #87cefa;
   color: #2c3536;
   padding: 15px;
   border-radius: 5px;
@@ -175,7 +171,7 @@ footer {
 }
 
 #upBtn:hover {
-  box-shadow: 0px 0px 10px rgb(145, 232, 241);
+  box-shadow: 0px 0px 5px #333;
   cursor: pointer;
 }
 
@@ -196,8 +192,9 @@ footer {
   footer {
     width: 105vh;
     height: 50vh;
-    background: #aaaaaa;
+    background: #c4c3d0;
     padding: 20px;
+    bottom: 0;
   }
 
   #upBtn {
